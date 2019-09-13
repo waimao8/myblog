@@ -124,11 +124,11 @@ seo: true
 index_with_subtitle: true
 
 # Automatically add external URL with BASE64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification: 3GAND0P1ucGzMfigmQ-jbn0zomJK8XvYValaAR69CJc
+ google_site_verification: 3GAND0P1ucGzMfigmQ-jbn0zomJK8XvYValaAR69CJc
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
