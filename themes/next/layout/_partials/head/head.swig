@@ -2,6 +2,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <meta name="theme-color" content="{{ theme.android_chrome_color }}"/>
+<meta name="google-site-verification" content="3GAND0P1ucGzMfigmQ-jbn0zomJK8XvYValaAR69CJc" />
+<meta name="baidu-site-verification" content="3faJdCBbch" />
 
 {% if theme.needmoreshare2.enable %}
   {% set needmoreshare2_css = url_for(theme.vendors._internal + '/needsharebutton/needsharebutton.css') %}
