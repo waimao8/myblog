@@ -124,12 +124,11 @@ seo: true
 index_with_subtitle: true
 
 # Automatically add external URL with BASE64 encrypt & decrypt.
-exturl: true
+exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
- google_site_verification: 3GAND0P1ucGzMfigmQ-jbn0zomJK8XvYValaAR69CJc
-
+# google_site_verification: 3GAND0P1ucGzMfigmQ-jbn0zomJK8XvYValaAR69CJc
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
 #bing_site_verification:
@@ -169,7 +168,7 @@ menu:
 sitemap:
 path: sitemap.xml
 baidusitemap:
-path: baidusitemap.xml
+# path: baidusitemap.xml
   #commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
