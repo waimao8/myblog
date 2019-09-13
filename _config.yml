@@ -86,3 +86,12 @@ deploy:
   type: git
   repo: https://github.com/waimao8/waimao8.github.io.git
   branch: master
+
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
