@@ -93,14 +93,14 @@ footer:
 # Valid values of language: deed.zh, deed.fr, deed.de, etc.
 creative_commons:
   license: by-nc-sa
-  sidebar: false
+  sidebar: true
   post: ture
   language:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://www.163168.xyz
   title: Follow me on GitHub
 
 
@@ -169,7 +169,7 @@ sitemap:
 path: sitemap.xml
 baidusitemap:
 # path: baidusitemap.xml
-  #commonweal: /404/ || heartbeat
+# commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
