@@ -167,7 +167,7 @@ menu:
 # 自动生成sitemap
 sitemap:
 path: sitemap.xml
-baidusitemap:
+# baidusitemap:
 # path: baidusitemap.xml
 # commonweal: /404/ || heartbeat
 

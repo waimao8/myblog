@@ -17,7 +17,7 @@ url: https://163168.xyz
 root: /
 # permalink: :title.html
 # permalink: post/:abbrlink.html
-permalink: posts/:abbrlink.html
+permalink: archives/:abbrlink.html
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: hex    # 进制：dec(default) and hex
@@ -83,15 +83,20 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/waimao8/waimao8.github.io.git
+  type:  git
+  repo:  https://github.com/waimao8/waimao8.github.io.git
   branch: master
-
+  -type:  baidu_url_submitter
 Plugins:
-- hexo-generator-baidu-sitemap
+- hexo-generator-baidu-sitemap 
 - hexo-generator-sitemap
 
 baidusitemap:
     path: baidusitemap.xml
 sitemap:
     path: sitemap.xml
+baidu_url_submit:
+  count: 100 # 提交最新的一个链接
+  host: 163168.xyz # 在百度站长平台中注册的域名
+  token: PkvBklFWuJCarm22 # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
