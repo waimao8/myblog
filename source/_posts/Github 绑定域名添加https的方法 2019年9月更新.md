@@ -1,10 +1,9 @@
----
 title: Github 绑定域名添加https的方法 2019年9月更新
-date: '2019/9/14 15:40:43'
 tags: CSDN迁移
 abbrlink: 563ff765
+date: 2019-09-14 15:40:43
 ---
- [ ](http://creativecommons.org/licenses/by-sa/4.0/) 版权声明：本文为博主原创文章，遵循[ CC 4.0 BY-SA ](http://creativecommons.org/licenses/by-sa/4.0/)版权协议，转载请附上原文出处链接和本声明。  本文链接：[https://blog.csdn.net/hao131416888/article/details/100825321](https://blog.csdn.net/hao131416888/article/details/100825321)   
+
     
   官方教程  
  https://help.github.com/en/articles/using-a-custom-domain-with-github-pages  
@@ -37,6 +36,3 @@ abbrlink: 563ff765
  ![6.png](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMDkvMTQvalpQblh1NGhrSm1NVHkxLnBuZw?x-oss-process=image/format,png)  
  等30分钟左右生效  
  点击 https://163168.xyz/ 生效就可以访问了
-
-   
-  
